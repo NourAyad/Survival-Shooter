@@ -61,6 +61,7 @@ public class PlayerShooting : MonoBehaviour
 
         gunParticles.Stop ();
         gunParticles.Play ();
+        Debug.Log("Flare");
 
         gunLine.enabled = true;
         gunLine.SetPosition (0, transform.position);
